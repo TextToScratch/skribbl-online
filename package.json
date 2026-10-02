@@ -1,0 +1,15 @@
+{
+  "name": "skribbl-online",
+  "version": "1.0.0",
+  "description": "Skribbl Online: a skribbl.io-style draw-and-guess game for Scratch, written with TextToScratch",
+  "scripts": {
+    "build": "tts build .",
+    "watch": "tts watch .",
+    "sfx": "node scripts/sfx.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "texttoscratch": "file:../TextToScratch"
+  },
+  "private": true
+}

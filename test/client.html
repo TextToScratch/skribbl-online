@@ -1,0 +1,22 @@
+<!doctype html>
+<!-- One Scratch VM (used by multiplayer.html in an iframe: each VM needs its own copy of scratch-vm,
+     because VMs on one page share the extension registry and draw pen into each other's stages). -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { margin: 0; font-family: Helvetica, Arial, sans-serif; color: #575e75; font-weight: bold; text-align: center; background: #e5f0ff; }
+    canvas { width: 480px; height: 360px; border: 1px solid #ccc; border-radius: 8px; background: #fff; display: block; }
+    input { width: 300px; } .q { font-weight: normal; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <canvas width="480" height="360"></canvas>
+  <div><span id="name"></span> <span class="q"></span><br><input placeholder="answer (Enter)"></div>
+  <script src="/vm/scratch-vm/dist/web/scratch-vm.js"></script>
+  <script src="/vm/scratch-render/dist/web/scratch-render.js"></script>
+  <script src="/vm/scratch-storage/dist/web/scratch-storage.js"></script>
+  <script src="/vm/scratch-svg-renderer/dist/web/scratch-svg-renderer.js"></script>
+  <script src="/test/client.js"></script>
+</body>
+</html>
